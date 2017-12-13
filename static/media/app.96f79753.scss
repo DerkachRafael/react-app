@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  background: #f2f2f2;
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+  min-width: 320px;
+}
+
+@import 'components/header/header.scss';
+@import 'components/navbar/nav.scss';
+
+@import 'components/music-card/music-card.scss';
+@import url('https://fonts.googleapis.com/css?family=Roboto');
